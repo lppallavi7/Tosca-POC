@@ -1,0 +1,4 @@
+- task: CmdLine@2
+  inputs:
+    script: 'C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCI\Client\ToscaCI.exe -c "<path-to-configuration>" -x "<path-to-executionlist>"'
+  displayName: 'Run Tosca Tests'
